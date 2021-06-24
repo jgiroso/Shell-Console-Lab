@@ -1,0 +1,92 @@
+  372  pwd
+  373  ls
+  374  pwd
+  375  cd Dev
+  376  echo "Hello Terminal" >myFile.txt
+  377  ls
+  378  cat myFile.txt
+  379  cat /etc/bashrc_Apple_Terminal
+  380  less /etc/bashrc_Apple_Terminal
+  381  grep Hello myFile.txt
+  382  touch myfile1
+  383  touch myfile2
+  384  touch myfile3 myfile4 myfile5
+  385  ls -lT
+  386  vim
+  387  vim myfile6
+  388  mkdir JenG
+  389  cd JenG
+  390  mkdir dir1
+  391  mkdir dir2
+  392  pwd
+  393  mkdir /dir1/newdir1
+  394  mkdir1 dir1/newdir1
+  395  mkdir dir1/newdir1
+  396  ls
+  397  mkdir ~/Dev/JenG/dir2/newdir2
+  398  cd dir1
+  399  ls
+  400  cd ..
+  401  cd dir2
+  402  ls
+  403  cd ..
+  404  cd ..
+  405  ls
+  406  cp ~/Dev/myfile6
+  407  mkdir vimFile
+  408  mv ~/Dev/myfile6 ~/Dev/vimFile
+  409  ls
+  410  cd vimFile
+  411  ls
+  412  mv myfile6 .myFile
+  413  ls
+  414  man ls
+  415  ls -a
+  416  cd ..
+  417  mkdir recipes
+  418  mkdir anime
+  419  cd recipes
+  420  echo "Banana Bread" >bread.txt
+  421  ls
+  422  cd ..
+  423  cd anime
+  424  echo "Attack on Titan" >aot.txt
+  425  echo "Fruits Basket" >tohru.txt
+  426  ls
+  427  rm tohru.txt
+  428  unlink aot.txt
+  429  ls
+  430  cd ..
+  431  cd recipes
+  432  rm -i bread.txt
+  433  cd ..
+  434  rm recipes
+  435  rmdir recipes
+  436  ls
+  437  cd anime.txt
+  438  echo "Fruits Basket" >tohru.txt
+  439  rm tohru.txt
+  440  cd anime
+  441  echo "Fruits Basket" >tohru.txt
+  442  ls
+  443  cd ..
+  444  rm -R anime
+  445  ls
+  446  echo "Hello" >-toughFile
+  447  ls
+  448  unlink -toughFile
+  449  ls
+  450  find / -name core
+  451  find / -name core 2> /dev/null
+  452  find / -name core 2> /dev/null > corefiles.log
+  453  grep -i lib corefiles.log
+  454  find / -name core 2> /dev/null > corefiles.log | grep -i lib corefiles.log
+  455  find / -name core | grep -i lib corefiles.log
+  456  find / -name core > corefiles.log | grep -i lib corefiles.log
+  457  find / -name core | grep -i lib corefiles.log&
+  458  python -m SimpleHTTPServer
+  459  python -m SimpleHTTPServer
+  460  jobs
+  461  bg
+  462  jobs
+  463  fg
