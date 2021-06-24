@@ -1,0 +1,16 @@
+  334  find / -name core > corefiles.log
+  335  find / -name core > corefiles.log 2> /dev/null
+  336  find / -name core 2> /dev/null > corefiles.log
+  337  find / -name core 2> /dev/null 1> corefiles.log
+  338  grep -i lib corefiles.log
+  339  find / -name core 2> /dev/null 1> corefiles.log | grep -i lib corefiles.log
+  340  find / -name core 2> /dev/null 1> corefiles.log | grep -i lib corefiles.log&
+  341  python -m SimpleHTTPServer
+  342  python -m SimpleHTTPServer
+  343  jobs
+  344  fg
+  345  bh
+  346  bg
+  347  jobs
+  348  fg
+  349  cd ..
